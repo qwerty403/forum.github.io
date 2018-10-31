@@ -1,0 +1,65 @@
+<html>
+<head>
+<title><?print"$frtname $frname $fname";?></title>
+<META http-equiv="Pragma" CONTENT="no-cache">
+<META http-equiv="Cache-Control" CONTENT="no-cache">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content-Language" content="ru">
+<meta name="description" content="<?=strip_tags($fdesription);  print" - $fname";?>">
+<meta name="Resource-type" content="document">
+<meta name="document-state" content="dynamic">
+<meta name="Robots" content="index,follow">
+<link rel="alternate" type="application/rss+xml"title="Новости <?=$fname?>"href="rss.php">
+<link rel="stylesheet" href="<?=$fskin?>/style.css" type="text/css">
+
+<SCRIPT language=JavaScript>
+<!--
+function x () {return;}
+function FocusText() {
+  document.REPLIER.msg.focus();
+  document.REPLIER.msg.select();
+  return true; }
+function DoSmilie(addSmilie) {
+  var revisedMessage;
+  var currentMessage=document.REPLIER.msg.value;
+  revisedMessage=currentMessage+addSmilie;
+  document.REPLIER.msg.value=revisedMessage;
+  document.REPLIER.msg.focus();
+  return;
+}
+function DoPrompt(action) {var revisedMessage; var currentMessage=document.REPLIER.msg.value;}
+//-->
+</SCRIPT>
+</head>
+
+<body  bgcolor="#E5E5E5" text="#000000" link="#006699" vlink="#5493B4">
+
+<!-- блок с ШАПКОЙ -->
+
+<table width="98%" id='logostrip' cellspacing="0" cellpadding="0">
+<tr><td><a href="index.php"><img src="<?=$fskin?>/wr-logo.gif" alt="<?=$fname?>" width="210" height="52" border="0"></a></td>
+<td valign="bottom" align="right"><a href="index.php" style="margin-right:20px;color:#ffffff"><?=$fname?></a></td>
+</tr></table>
+
+<table width="98%" cellspacing="6" id="logomenu" border="0"><tr>
+<td width=500 valign="top"><span style="margin-right:15px;"><?=$fdesription?></span></td>
+<td align="right" valign="bottom" nowrap>
+<img src="<?=$fskin?>/atb_search.gif" border="0" alt="" />&nbsp;<a href="tools.php?event=find" title="Поиск"><b>Поиск</b></a>
+ &nbsp;&nbsp;<img src="<?=$fskin?>/atb_members.gif" border="0" alt="" />&nbsp;<a href="tools.php?event=who" title="Участники"><b>Участники</b></a>
+</td>
+</tr></table>
+
+
+<table width=100% cellspacing=0 cellpadding=10 align=center><tr><td class=bodyline>
+
+<table width=100% cellspacing=0 cellpadding=0><tr><td>
+
+<table width=100% id="userlinks" cellspacing=0 cellpadding=2><tr><td>
+
+<table cellspacing=0 cellpadding=2><tr><td>
+
+
+
+
+
+

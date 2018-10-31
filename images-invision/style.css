@@ -1,0 +1,114 @@
+BODY {font-family: Verdana, Tahoma, Arial, sans-serif; font-size: 12px; color: #000; margin:0px;padding:0px;background-color:#FFF; text-align:center}
+TABLE, TR, TD {font-family: Verdana, Tahoma, Arial, sans-serif; font-size: 11px; color: #000;}
+
+.maintitle, .thCornerL, .thTop, .thCornerR, .thHead, .thLeft, .thRight, .catHead {vertical-align:middle;font-weight:bold; color:#FFF; padding:8px 0px 8px 5px; background-color: #78B1F3; background-image: url(tile_back.gif)}
+.maintitle a:link, .maintitle  a:visited, .maintitle  a:active {text-decoration: none; color: #FFF}
+.maintitle a:hover {text-decoration: underline}
+
+.cattitle {font-size:11px;font-weight:bold;line-height:150%;color:#124CA0;padding:5px 4px 5px 5px;border-bottom:1px solid #345487;}
+
+a:link, a:visited, a:active {text-decoration: underline; color: #000}
+a:hover {color: #3972B0; text-decoration:underline}
+
+img  {vertical-align:middle; border:0px; margin-top:1px}
+form {display:inline;}
+
+.mainoption, .button { background-color: #D1DCEB; color:#3A4F6C;font-weight:bold;padding:0px;margin-top:0px}
+
+option.cat {font-weight:bold;}
+option.sub {font-weight:bold;color:#555}
+.caldate   {text-align:right;font-weight:bold;font-size:12px;color:#777;background-color:#DFE6EF;padding:4px;margin:0px}
+
+#logostrip {border:1px solid #345487;background-color: #75ADEF;background-image:url(tile_back.gif);padding:0px;margin:0px;}
+#logostrip a:link, #logostrip  a:visited, #logostrip a:active { font-size:12px;text-decoration: none; color: #3A4F6C;  font-weight : bold;}
+
+.button {BACKGROUND: #F0F5FA; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid}
+
+.forumlink {font-weight: bold; font-size: 12px; color : #006699;}
+.postbody  {font-size : 13px;}
+small {font-size : 11px;}
+
+td.spaceRow { background: #6FA0E3 }
+.row1 {background-color: #F9F8FD; padding:5px;margin-top:1px}
+.row2 {background-color: #EAF3FF; padding:5px;margin-top:1px}
+.row3 {background-color: #DDEBF9}
+.row4 {background-color: #E4EDF4}
+
+.titlemedium, .thSides, .catLeft, .rowpic {font-weight:bold; color:#3A4F6C; padding:7px; margin:0px; background-color:#A4C9F4; background-image: url(tile_sub.gif)}
+.titlemedium, .thSides  a:link, .titlemedium  a:visited, .titlemedium  a:active {text-decoration: underline; color: #3A4F6C}
+
+.forumline { border:1px solid #345487; background-color:#809EC2; padding:0; margin:0 }
+.tableborder, .post,  { border:1px solid #345487; background-color:#DDEBF9; padding:1; margin:1 }
+
+
+
+
+
+
+
+
+
+
+#ucpmenu    { line-height:150%;width:22%; border:1px solid #345487;background-color: #F5F9FD }
+#ucpmenu p  { padding:2px 5px 6px 9px;margin:0px; }
+#ucpcontent { background-color: #F5F9FD; border:1px solid #345487;line-height:150%; width:auto }
+#ucpcontent p  { padding:10px;margin:0px; }
+
+
+#submenu   { border:1px solid #BCD0ED;background-color: #DFE6EF;font-size:10px;margin:3px 0px 3px 0px;color:#3A4F6C;font-weight:bold;}
+#submenu a:link, #submenu  a:visited, #submenu a:active { font-weight:bold;font-size:10px;text-decoration: none; color: #3A4F6C; }
+#userlinks { border:1px solid #C2CFDF; background-color: #F0F5FA }
+
+#navstrip  { font-weight:bold;padding:6px 0px 6px 0px; }
+
+#logomenu   { border:1px solid #BCD0ED;background-color: #DFE6EF;font-size:10px;margin:3px 0px 3px 0px;color:#3A4F6C;}
+#logomenu a:link, #logomenu  a:visited, #logomenu a:active {font-size:10px;text-decoration: none; color: #3A4F6C; }
+
+.profil {color : Red;font-size : 12px;}
+.agreement {font-size : 12px;}
+
+.signature   { font-size: 10px; color: #339; line-height:150%;  vertical-align : bottom;  }
+.postdetails { font-size: 10px }
+.postcolor   { font-size: 12px; line-height: 160% }
+
+.normalname { font-size: 12px; font-weight: bold; color: #003 }
+.normalname a:link, .normalname a:visited, .normalname a:active { font-size: 12px }
+.unreg { font-size: 12px; font-weight: bold; color: #900 }
+
+.post1 { background-color: #F5F9FD }
+.post2 { background-color: #EEF2F7 }
+.postlinksbar { background-color:#A4C9F4;padding:7px;margin-top:1px;font-size:10px; background-image: url(tile_sub.gif) }
+
+.darkrow1 { background-color: #C2CFDF; color:#4C77B6; }
+.darkrow2 { background-color: #BCD0ED; color:#3A4F6C; }
+.darkrow3 { background-color: #D1DCEB; color:#3A4F6C; }
+
+.hlight { background-color: #DFE6EF }
+.dlight { background-color: #EEF2F7 }
+
+.plainborder { border:1px solid #345487;background-color:#F5F9FD }
+
+.tablefill   { border:1px solid #345487;background-color:#F5F9FD;padding:6px;  }
+.tablepad    { background-color:#F5F9FD;padding:6px }
+.tablebasic  { width:100%; padding:0px 0px 0px 0px; margin:0px; border:0px }
+
+.wrapmini    { float:left;line-height:1.5em;width:35% }
+.pagelinks   { float:left;line-height:1.2em;width:35% }
+
+.desc { font-size:10px; color:#434951 }
+.edit { font-size: 9px }
+
+
+.searchlite { font-weight:bold; color:#F00; background-color:#FF0 }
+
+.copyright { font-family: Verdana, Tahoma, Arial, Sans-Serif; font-size: 11px; line-height: 12px }
+
+.codebuttons  { font-size: 10px; font-family: verdana, helvetica, sans-serif; vertical-align: middle }
+.forminput, .textinput, .radiobutton, .checkbox  { font-size: 12px; font-family: verdana, helvetica, sans-serif; vertical-align: middle }
+Select, Input { font-size: 12px; font-family: verdana, helvetica, sans-serif; vertical-align: middle }
+.thin { padding:6px 0px 6px 0px;line-height:140%;margin:2px 0px 2px 0px;border-top:1px solid #FFF;border-bottom:1px solid #FFF }
+
+
+
+
+
